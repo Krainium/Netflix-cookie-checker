@@ -1,0 +1,14 @@
+{
+  "name": "netflix-cookie-checker",
+  "version": "2.0.0",
+  "description": "Netflix cookie checker — tests live accounts, detects plan type, saves valid cookies",
+  "main": "checker.js",
+  "scripts": {
+    "start": "node checker.js",
+    "extract": "node checker.js --extract"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "colors": "^1.4.0"
+  }
+}
